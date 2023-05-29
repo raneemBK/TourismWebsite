@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Carme', sans-serif;
+    color: #223b24;
+}
+header{
+    text-align: justify;
+    align-content: center;
+    background-color: #7ea581;
+    width: 100%;
+    display:flex;
+    position:fixed;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+	display: inline-block;
+}
+nav ul li a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 15px;
+}
+nav ul li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+nav ul li a:active {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+main{
+    padding-top: 90px;
+}
+section{
+    margin-left: 3%;
+    margin-top: 4%;
+}
+.intro h1 ,.intro h2{
+    text-align: center;
+    margin-top: 4%;
+}
+.sec1{
+    display: flex;
+}
+.sec1 .description{
+    margin-left: 55px;
+    font-size: x-large;
+    line-height: 43px;
+}
+.services{
+    box-shadow: 1px 4px 8px 1px rgb(67, 82, 67);
+    text-align: center;
+    width: 99%;
+}
+.sec2 .cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 90px;
+}
+.sec2 .card a{
+    text-decoration: none;
+
+}
+.sec2 .card a:hover{
+    color: rgb(94, 197, 94);
+    text-decoration: underline;
+
+}
+.sec2 .card{
+    margin: 20px;
+    box-shadow: 1px 4px 8px 1px rgb(67, 82, 67);
+    width: 300px;
+    height: 400px;
+    text-align: center;
+
+}
+.card .desc{
+    padding: 10px;
+}
+.rev{
+    padding-top: 20px;
+    box-shadow: 1px 4px 8px 1px rgb(67, 82, 67);
+    text-align: center;
+    width: 99%;
+    height: 150px;
+}
+form{
+    padding-top: 20px;
+}
+form .text{
+    width: 300px;
+    height: 30px;
+    color: #223b24;
+}
+form .submit{
+    margin-top: 10px;
+    width: 70px;
+    height: 20px;
+    color: #223b24;
+}
+.sec3 .cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 90px;
+}
+.sec3 .card{
+    box-shadow: 1px 4px 8px 1px rgb(67, 82, 67);
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 220px;
+}
+.sec3 .card .review{
+    float: right;
+    padding-top: 25px;
+    padding-right: 200px;
+}
+.sec3 .card .reviews{
+    padding-left: 10px;
+}
+.sec4 .card{
+    margin: 30px;
+    display: flex;
+    box-shadow: 1px 4px 8px 1px rgb(67, 82, 67);
+    width: 80%;
+    height: 200px;
+    margin-left: 90px;
+
+}
+.sec4 .card:hover{
+    transform: scale(1.1);
+}
+.sec4 .card .description{
+    padding: 20px;
+}
+footer{
+    position: absolute;
+    background-color: #7ea581;
+    width: 100%;
+    height: 300px;
+    padding-top: 40px;
+    color: #fff;
+    text-align: center;
+}
+.cars {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    padding-left: 200px;
+}
+.cars .car {
+    width: 350px;
+    height: 370px;
+    box-shadow: 2px 3px 18px -2px;
+    margin: 30px;
+}
+.cars .car .info {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+.cars .car .info h1 {
+    font-size: 26px;
+}
+
+.cars .car  .price {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+.cars .car  .price button {
+    background-color: #324233;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.cars .car  .price button:hover  {
+    background-color: green;
+}
+.cars .car .image  {
+    width: 100%;
+    height: 65%;
+}
+.image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.Religious , .Marine ,.Mountain ,.Archaeological ,.Desert{
+    text-align: center;
+}
+.Religious .religious , .Marine .marine , .Mountain .mountain ,.Archaeological .archaeological ,.Desert .desert{
+    margin: 30px;
+    display: flex;
+}
+.Religious .religious p , .Marine .marine p ,  .Mountain .mountain p , .Archaeological .archaeological p,.Desert .desert p{
+    padding: 20px;
+}
+table td{
+    padding: 30px;
+}
+table td p{
+    padding-top: 10px;
+}
+
